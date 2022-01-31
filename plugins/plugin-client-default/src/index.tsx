@@ -17,14 +17,9 @@
 import React from 'react'
 
 import { Capabilities } from '@kui-shell/core'
-import { Kui, KuiProps, ContextWidgets, MeterWidgets, CurrentWorkingDirectory, SpaceFiller } from '@kui-shell/plugin-client-common'
+import { Kui, KuiProps, ContextWidgets, MeterWidgets, SpaceFiller } from '@kui-shell/plugin-client-common'
 
-import { CurrentGitBranch } from '@kui-shell/plugin-git'
 import { CurrentContext, CurrentNamespace } from '@kui-shell/plugin-kubectl/components'
-import { ProxyOfflineIndicator } from '@kui-shell/plugin-proxy-support'
-import { Search } from '@kui-shell/plugin-electron-components'
-
-import { CatDogWidget } from '@kui-shell/plugin-example'
 
 import { version } from '@kui-shell/client/package.json'
 import guidebooks from '@kui-shell/client/config.d/notebooks.json'
@@ -40,8 +35,6 @@ import { productName } from '@kui-shell/client/config.d/name.json'
 
 /**
  * Format our body, with extra status stripe widgets
- *   - <CurrentGitBranch />
- *   - <ProxyOfflineIndicator />
  *
  */
 export default function renderMain(props: KuiProps) {
@@ -51,7 +44,6 @@ export default function renderMain(props: KuiProps) {
       productName={productName}
       lightweightTables
       {...props}
-      toplevel={!Capabilities.inBrowser() && <Search />}
       guidebooks={guidebooks.submenu}
       commandLine={
         props.commandLine || [
@@ -62,17 +54,13 @@ export default function renderMain(props: KuiProps) {
       }
     >
       <ContextWidgets>
-        <CurrentWorkingDirectory />
         <CurrentContext />
         <CurrentNamespace />
-        <CurrentGitBranch className="kui--hide-in-narrower-windows" />
       </ContextWidgets>
 
       <SpaceFiller />
 
       <MeterWidgets>
-        <CatDogWidget />
-        {Capabilities.inBrowser() && <ProxyOfflineIndicator />}
       </MeterWidgets>
     </Kui>
   )
