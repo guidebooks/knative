@@ -1,0 +1,1 @@
+(self.webpackChunkKuiClientTemplate=self.webpackChunkKuiClientTemplate||[]).push([[56621,10561],{37767:()=>{},67953:()=>{},10561:()=>{},5696:()=>{}}]);
