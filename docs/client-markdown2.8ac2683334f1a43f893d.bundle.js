@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkKuiClientTemplate=self.webpackChunkKuiClientTemplate||[]).push([[53909],{19770:(e,n,s)=>{s.r(n),s.d(n,{default:()=>t});const t="Icons for Windows\n"}}]);

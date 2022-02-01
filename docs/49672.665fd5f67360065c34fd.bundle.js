@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkKuiClientTemplate=self.webpackChunkKuiClientTemplate||[]).push([[49672],{49672:(e,t,n)=>{n.r(t),n.d(t,{default:()=>u});var l=n(67294);const a=l.lazy((()=>n.e(92562).then(n.bind(n,92562))));function u(e){return l.createElement(l.Suspense,{fallback:l.createElement("div",null)},l.createElement(a,Object.assign({},e)))}}}]);
