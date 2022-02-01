@@ -1,21 +1,27 @@
 {
-  "name": "@kui-shell/plugin-client",
+  "name": "@kui-shell/plugin-client-offline",
   "version": "1.0.0",
-  "description": "Kui plugin that offers client defintion",
+  "description": "Knative Guidebooks static single web page client",
   "main": "dist/index.js",
   "module": "mdist/index.js",
   "types": "mdist/index.d.ts",
   "license": "Apache-2.0",
   "author": "Mengting Yan",
-  "homepage": "https://portal-site.ac07fvgwkic.us-south.codeengine.appdomain.cloud/projects",
+  "homepage": "https://github.com/guidebooks/knative",
   "bugs": {
-    "url": "https://github.com/IBM/kui/issues/new"
+    "url": "https://github.com/guidebooks/knative/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IBM/kui.git"
+    "url": "git+https://github.com/guidebooks/knative.git"
   },
   "keywords": [
+    "knative",
+    "notebook",
+    "guidebook",
+    "documentation",
+    "mkdocs",
+    "katacoda",
     "kui",
     "plugin"
   ],
