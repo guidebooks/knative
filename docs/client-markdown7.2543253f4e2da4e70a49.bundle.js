@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkKuiClientTemplate=self.webpackChunkKuiClientTemplate||[]).push([[98950],{17186:e=>{e.exports=JSON.parse('{"millisBeforeProxyConnectionWarning":250,"proxyServer":{"enabled":false,"url":"http://localhost:8081/exec","needleOptions":{"rejectUnauthorized":false}},"shellExe":"","shellOpts":[]}')}}]);

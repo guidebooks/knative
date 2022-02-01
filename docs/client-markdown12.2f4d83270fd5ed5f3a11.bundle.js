@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkKuiClientTemplate=self.webpackChunkKuiClientTemplate||[]).push([[61943],{56237:e=>{e.exports=JSON.parse('{"extends":"../../node_modules/@kui-shell/builder/tsconfig-base.json","include":["src/**/*"],"compilerOptions":{"composite":true,"jsx":"react","outDir":"mdist","rootDir":"src"}}')}}]);
