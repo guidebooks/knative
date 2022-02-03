@@ -2,10 +2,9 @@
   "label": "Notebooks",
   "submenu": [
     {
-      "label": "Knative",
-      "expanded": true,
+      "label": "Getting Started",
       "submenu": [
-        { "notebook": "Getting Started", "filepath": "/kui/kubernetes/knative-getting-started.md", "open": true },
+        { "notebook": "Quick start", "filepath": "/kui/kubernetes/knative-getting-started.md", "open": true },
         {
           "label": "Serving",
           "submenu": [
@@ -32,9 +31,14 @@
             {
               "notebook": "Creating your first Trigger",
               "filepath": "/kui/kubernetes/knative-first-trigger.md"
+            },
+            {
+              "notebook": "Clean Up",
+              "filepath": "/kui/kubernetes/knative-clean-up.md"
             }
           ]
-        }
+        },
+        { "notebook": "What's Next?", "filepath": "/kui/kubernetes/knative-whats-next.md" }
       ]
     }
   ]
