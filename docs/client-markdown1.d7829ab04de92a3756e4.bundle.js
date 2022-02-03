@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkKuiClientTemplate=self.webpackChunkKuiClientTemplate||[]).push([[96640],{67976:(e,t,l)=>{l.r(t),l.d(t,{default:()=>n});const n="Icons for MacOS\n"}}]);
