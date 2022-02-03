@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkKuiClientTemplate=self.webpackChunkKuiClientTemplate||[]).push([[16046],{71109:(e,o,t)=>{t.r(o),t.d(o,{default:()=>n});const n='Hello world! Any markdown files that you drop in the "notebooks"\ndirectory of your client are available for use. Edit\n`config.d/notebooks.json` to define your menu structure.\n'}}]);
