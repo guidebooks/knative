@@ -3,13 +3,36 @@
   "submenu": [
     {
       "label": "Knative",
+      "expanded": true,
       "submenu": [
         { "notebook": "Getting Started", "filepath": "/kui/kubernetes/knative-getting-started.md", "open": true },
         {
           "label": "Serving",
           "submenu": [
             { "notebook": "First Knative Service", "filepath": "/kui/kubernetes/knative-first-service.md" },
-            { "notebook": "Scaling to Zero", "filepath": "/kui/kubernetes/knative-first-autoscale.md" }
+            { "notebook": "Scaling to Zero", "filepath": "/kui/kubernetes/knative-first-autoscale.md" },
+            { "notebook": "Traffic Splitting", "filepath": "/kui/kubernetes/knative-traffic-splitting.md" }
+          ]
+        },
+        {
+          "label": "Eventing",
+          "submenu": [
+            {
+              "notebook": "Introducing Knative Eventing",
+              "filepath": "/kui/kubernetes/knative-introducing-eventing.md"
+            },
+            {
+              "notebook": "Sources, Brokers, Triggers, Sinks",
+              "filepath": "/kui/kubernetes/knative-eventing-components.md"
+            },
+            {
+              "notebook": "Introducing the CloudEvents Player",
+              "filepath": "/kui/kubernetes/knative-cloud-events-player.md"
+            },
+            {
+              "notebook": "Creating your first Trigger",
+              "filepath": "/kui/kubernetes/knative-first-trigger.md"
+            }
           ]
         }
       ]
