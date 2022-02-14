@@ -1,6 +1,6 @@
 {
   "name": "@kui-shell/plugin-client-offline",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Knative Guidebooks static single web page client",
   "main": "dist/index.js",
   "module": "mdist/index.js",
