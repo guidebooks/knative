@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkKuiClientTemplate=self.webpackChunkKuiClientTemplate||[]).push([[30735],{14018:(e,t,l)=>{l.r(t),l.d(t,{default:()=>u});const u=""}}]);
